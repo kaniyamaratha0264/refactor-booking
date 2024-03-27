@@ -43,3 +43,19 @@ OR
 Thank you!
 
 
+
+============================================================================
+
+1. Readme described above (point X above) + refactored code 
+Improvements and Suggestions:
+----------------------------------------------------------------------------
+1. Use Laravel's Auth facade instead of $this->__authenticatedUser
+2. Handle unauthorized access or missing parameters
+3. Use of Null Coalescing Operator: Utilized the null coalescing operator (??) to provide default values for variables where appropriate.
+4. Validation : Use the validation wherever required.
+5. Reduced Cyclomatic Complexity: Reduced the complexity of some methods by removing nested conditionals.
+6. Variable Naming: Renamed variables for clarity and consistency.
+7. Error Handling: Improved error handling in the resendSMSNotifications method by catching exceptions and providing meaningful responses.
+8. Use specific response codes like 500 for internal server errors
+9. Reduced Duplication: Removed unnecessary duplication of code, especially in condition checking.
+10. Remove the unnecessary commented code which will not be in use ever.
